@@ -8,7 +8,7 @@ $gray: #6D6E71
     align-items: center
     padding-top: 0.9em
 
-img
+.pic-start
     width:35%
     border-radius: 50%
     
@@ -24,3 +24,87 @@ img
 
 h1
     font-size: 400%
+
+#team
+    display: grid
+    grid-template-columns: repeat(9, 11.1111%)
+    frid-template-rows: auto auto auto auto
+
+#team-head
+    grid-column-start: 1
+    grid-column-end: 10
+    grid-row-start: 1
+    grid-row-end: 2
+    text-align: center
+    padding: 0.9em 0
+
+
+#member1
+    grid-row-start: 2
+    grid-row-end: 3
+    grid-column-start: 2
+    grid-column-end: 3
+    padding: 0.9em 0
+
+#member2
+    grid-row-start: 2
+    grid-row-end: 3
+    grid-column-start: 4
+    grid-column-end: 5
+    padding: 0.9em 0
+
+#member3
+    grid-row-start: 2
+    grid-row-end: 3
+    grid-column-start: 6
+    grid-column-end: 7
+    padding: 0.9em 0
+
+#member4
+    grid-row-start: 2
+    grid-row-end: 3
+    grid-column-start: 8
+    grid-column-end: 9
+    padding: 0.9em 0
+
+#team-text
+    grid-column-start: 1
+    grid-column-end: 10
+    grid-row-start: 3
+    grid-row-end: 4
+    text-align: center
+    padding: 0.9em 0
+
+#button-link
+    grid-column-start: 1
+    grid-column-end: 10
+    grid-row-start: 4
+    grid-row-end: 5
+    text-align: center
+    padding: 0.9em 0
+    
+    
+
+#team-button
+    width: 200px
+    padding: 0.9em 0
+    background: $red
+    border: none
+    border-radius: 50px
+    cursor: pointer
+    transition: all 0.4s ease 0s
+
+#team-button:hover
+    background: $gray
+    color: $red
+
+.pic-member
+    width: 150px
+    border-radius: 50%
+
+.member-name
+    text-align: center
+
+.member-position
+    padding: 0.9em 0
+    text-align: center
