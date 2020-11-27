@@ -1,0 +1,29 @@
+#start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+img {
+  width: 33.40%;
+  border-radius: 50%;
+}
+
+h1 {
+  width: 33%;
+  font-size: 400%;
+  color: #000;
+  background: green;
+}
+
+p {
+  width: 40%;
+  color: #000;
+  background: blue;
+}
+/*# sourceMappingURL=home.component.css.map */
