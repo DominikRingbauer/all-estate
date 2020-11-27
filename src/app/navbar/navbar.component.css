@@ -1,0 +1,55 @@
+li, a, button {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 3em;
+  border-bottom: 1px solid lightgray;
+}
+
+#logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+#nav-links {
+  list-style: none;
+}
+
+#nav-links li {
+  display: inline-block;
+  padding: 0 1.1em;
+}
+
+a:hover {
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  -webkit-text-decoration: underline #CF1717;
+          text-decoration: underline #CF1717;
+  color: #CF1717;
+}
+
+button {
+  width: 200px;
+  padding: 0.9em 0;
+  background: #CF1717;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background-color: #6D6E71;
+  color: #CF1717;
+}
+/*# sourceMappingURL=navbar.component.css.map */

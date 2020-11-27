@@ -1,0 +1,42 @@
+$red: #CF1717
+$gray: #6D6E71
+
+li, a, button
+    text-decoration: none
+
+header
+    display: flex
+    justify-content: space-around
+    align-items: center
+    padding: 1em 3em
+    border-bottom: 1px solid lightgray
+
+#logo
+    width: 200px
+    cursor: pointer
+
+#nav-links
+    list-style: none
+
+    li
+        display: inline-block
+        padding: 0 1.1em
+
+
+a:hover
+    transition: all 0.4s ease 0s
+    text-decoration: underline $red
+    color: $red
+
+button
+    width: 200px
+    padding: 0.9em 0
+    background: $red
+    border: none
+    border-radius: 50px
+    cursor: pointer
+    transition: all 0.4s ease 0s
+
+button:hover
+        background-color: $gray
+        color: $red

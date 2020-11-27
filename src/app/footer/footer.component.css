@@ -1,0 +1,32 @@
+footer {
+  border-top: 1px solid lightgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-text-decoration: underline #CF1717;
+          text-decoration: underline #CF1717;
+  color: #CF1717;
+}
+
+#footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#copy {
+  text-align: center;
+}
+
+p {
+  padding-top: 0.9em;
+}
+/*# sourceMappingURL=footer.component.css.map */
