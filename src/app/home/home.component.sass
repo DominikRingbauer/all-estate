@@ -1,6 +1,7 @@
 $red: #CF1717
 $gray: #6D6E71
 
+/* Fisrt section (start) done with flex box */
 #start
     display: flex
     flex-wrap: wrap
@@ -20,10 +21,55 @@ $gray: #6D6E71
 
 #text2
     width: 40%
-    padding-top: 0.9em
 
 h1
     font-size: 400%
+    text-align: center
+    padding: 0.9em 0
+
+h3 
+    text-align: center
+
+button
+    width: 200px
+    padding: 0.9em 0
+    background: none
+    border: 1px solid $red
+    border-radius: 50px
+    cursor: pointer
+    transition: all 0.4s ease 0s
+    display: block
+    margin: 0 auto
+
+button:hover
+    background-color: rgba(109,110,113,0.5)
+    color: $red
+    transition: all 0.4s ease 0s
+
+.section-text
+    text-align: center
+    padding: 0.9em 0
+
+a
+    text-decoration: none
+
+/* Second section (some estates) also done with flex box */
+
+#properties-flex
+    display: flex
+    justify-content: space-around
+
+    .property-box
+        border: 1px solid $gray
+
+        ul
+            margin-left: 25%
+
+    .pic-property
+        width: 16em
+        height: 10em
+
+/* Third section (some team members) done with grid layout */
 
 #team
     display: grid
@@ -35,8 +81,6 @@ h1
     grid-column-end: 10
     grid-row-start: 1
     grid-row-end: 2
-    text-align: center
-    padding: 0.9em 0
 
 
 #member1
@@ -73,37 +117,19 @@ h1
     grid-row-start: 3
     grid-row-end: 4
     text-align: center
-    padding: 0.9em 0
 
 #button-link
-    grid-column-start: 1
-    grid-column-end: 10
+    grid-column-start: 5
+    grid-column-end: 6
     grid-row-start: 4
     grid-row-end: 5
+    padding: 0.9em 0
     text-align: center
-    padding: 0.9em 0
-    
-    
-
-#team-button
-    width: 200px
-    padding: 0.9em 0
-    background: $red
-    border: none
-    border-radius: 50px
-    cursor: pointer
-    transition: all 0.4s ease 0s
-
-#team-button:hover
-    background: $gray
-    color: $red
 
 .pic-member
     width: 150px
     border-radius: 50%
 
-.member-name
-    text-align: center
 
 .member-position
     padding: 0.9em 0
