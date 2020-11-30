@@ -134,3 +134,40 @@ a
 .member-position
     padding: 0.9em 0
     text-align: center
+
+/* Fourth section (contact form) */
+
+#contact-flex
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+input[type="text"],
+input[type="email"]
+    border: none
+    border-bottom: 1px solid $gray
+    padding: 0.9em 0
+    width: 100%
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea
+    outline: none
+
+input[type="submit"]
+    width: 200px
+    padding: 0.9em 0
+    background: none
+    border: 1px solid $red
+    border-radius: 50px
+    cursor: pointer
+    transition: all 0.4s ease 0s
+    display: block
+    margin: 0.9em auto
+
+input[type="submit"]:hover
+    background-color: rgba(109,110,113,0.5)
+    color: $red
+    transition: all 0.4s ease 0s
+
+
