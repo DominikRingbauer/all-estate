@@ -1,0 +1,30 @@
+<section>
+    <h1>Properties for sale</h1>
+    <p>We offer all kind of estates form A to Z. You can find them all over the world. If you are interested in living in on of these buildings, pleas let us know.</p>
+    <div id="all-properties">
+        <div *ngFor="let building of buildings" id="buildings">
+            <div id="prop-img">
+                <img src="{{building.image}}" alt="property">
+            </div>
+            <div id="prop-text">
+                <p>{{building.name}}</p>
+                <p>{{building.description}}</p>
+                <p>{{building.location}}</p>
+                <p>{{building.price}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+<div *ngFor="let building of buildings" id="buildings">
+    <div id="prop-img">
+        <img src="{{building.image}}" alt="property">
+    </div>
+    <div id="prop-text">
+        <p>{{building.name}}</p>
+        <p>{{building.description}}</p>
+        <p>{{building.location}}</p>
+        <p>{{building.price}}</p>
+    </div>
+</div>
+-->
