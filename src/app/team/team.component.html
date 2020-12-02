@@ -1,0 +1,14 @@
+<section id="team">
+    <h1>Team</h1>
+    <p>Our wonderful team consists of the best people.</p>
+    <div id="team-flex">
+        <div *ngFor="let teamMember of staff" class="member-box">
+            <img src="{{teamMember.image}}" alt="team member">
+            <div>
+                <h3 class="member-padding">{{teamMember.name}}</h3>
+                <p class="member-padding">{{teamMember.position}}</p>
+                <p class="member-padding">{{teamMember.description}}</p>
+            </div>
+        </div>
+    </div>
+</section>
