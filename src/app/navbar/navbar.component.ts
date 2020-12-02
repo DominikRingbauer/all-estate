@@ -13,6 +13,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
- 
+  scrollDown() {
+    window.scrollTo(0, document.body.scrollHeight);
+  }
 
 }
